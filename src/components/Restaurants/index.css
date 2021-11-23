@@ -1,0 +1,114 @@
+.restaurants-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.restaurants-content {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 23px;
+  margin-bottom: 40px;
+}
+@media screen and (min-width: 768px) {
+  .restaurants-content {
+    width: 95%;
+    margin-top: 80px;
+    margin-bottom: 60px;
+  }
+}
+.restaurants-heading {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 32px;
+  color: #183b56;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 768px) {
+  .restaurants-heading {
+    font-size: 32px;
+    line-height: 48px;
+    margin-bottom: 8px;
+  }
+}
+.restaurants-description-sort-by-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .restaurants-description-sort-by-options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.restaurant-description {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #64748b;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.sort-by-container {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .sort-by-container {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+}
+.sort-by-icon {
+  font-size: 24px;
+  color: #475569;
+  margin-right: 6px;
+}
+.sort-by {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
+.sort-by-select {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+  background-color: #ffffff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+.select-option {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.hr-line {
+  border: 2px solid #cbd2d9;
+  margin-top: 24px;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 767px) {
+  .hr-line {
+    display: none;
+  }
+}

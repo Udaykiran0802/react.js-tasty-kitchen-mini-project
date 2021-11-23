@@ -1,0 +1,26 @@
+.home-carousel-loader {
+  height: 188px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .home-carousel-loader {
+    height: 320px;
+  }
+}
+.home-carousel-item {
+  color: #ffff;
+}
+.home-carousel-image {
+  height: 188px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .home-carousel-image {
+    height: 320px;
+    margin-top: 48px;
+    border-radius: 8px;
+  }
+}

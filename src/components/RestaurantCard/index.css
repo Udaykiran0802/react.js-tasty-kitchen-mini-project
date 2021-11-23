@@ -1,0 +1,105 @@
+.restaurant-link-item {
+  text-decoration: none;
+  width: 100%;
+  height: 110px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-link-item {
+    width: 350px;
+    height: 100px;
+    margin-bottom: 32px;
+  }
+}
+.restaurant-card-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.restaurant-card-image {
+  height: 100px;
+  width: 160px;
+  flex-grow: 1;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-card-image {
+    width: 160px;
+    height: 100px;
+  }
+}
+.restaurant-card-description-container {
+  margin-left: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.restaurant-card-name {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.2px;
+  color: #334155;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-card-name {
+    font-size: 18px;
+    line-height: 24px;
+  }
+}
+.restaurant-card-cuisine {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #64748b;
+  margin-top: 0px;
+  margin-bottom: 6px;
+}
+@media screen and (min-width: 768px) {
+  .restaurant-card-cuisine {
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+.restaurant-card-rating-container {
+  display: flex;
+  align-items: center;
+  height: 18px;
+}
+.restaurant-card-star {
+  color: #ffcc00;
+  width: 14px;
+  height: 14px;
+}
+.restaurant-card-rating {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+  color: #000000;
+}
+.restaurant-card-total-reviews {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  color: #64748b;
+  margin-left: 4px;
+}

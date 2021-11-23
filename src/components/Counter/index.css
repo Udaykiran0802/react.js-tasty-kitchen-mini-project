@@ -1,0 +1,25 @@
+.counter-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 8px;
+  width: 260px;
+}
+.quantity-controller-button {
+  width: 18px;
+  height: 18px;
+  border: 0.75px solid #475569;
+  box-sizing: border-box;
+  border-radius: 2.25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+}
+.cart-quantity {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475569;
+}
