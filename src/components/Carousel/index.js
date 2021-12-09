@@ -37,6 +37,7 @@ class Carousel extends Component {
     const settings = {
       dots: true,
       infinite: true,
+      arrows: false,
       speed: 3000,
       slidesToShow: 1,
       slidesToScroll: 1,
@@ -45,17 +46,10 @@ class Carousel extends Component {
       pauseOnHover: true,
       focusOnSelect: true,
       appendDots: dots => (
-        <div>
-          <ul
-            style={{
-              marginTop: '-70px',
-              color: 'white',
-            }}
-          >
-            {dots}
-          </ul>
-        </div>
-      ),
+      <div className="slick-dots">
+      <ul>{dots}</ul>
+    </div>
+  ),
     }
     const {carouselList} = this.state
     return (
