@@ -46,10 +46,10 @@ class Carousel extends Component {
       pauseOnHover: true,
       focusOnSelect: true,
       appendDots: dots => (
-      <div className="slick-dots">
-      <ul>{dots}</ul>
-    </div>
-  ),
+        <div className="slick-dots">
+          <ul>{dots}</ul>
+        </div>
+    ),
     }
     const {carouselList} = this.state
     return (
